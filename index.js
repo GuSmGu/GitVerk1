@@ -7,6 +7,7 @@ const io = new Server(server);
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: false }));
+//Svakalega mikilvæg breyting
 
 let innskráðir = 0;
 
